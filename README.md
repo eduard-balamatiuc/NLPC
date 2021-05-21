@@ -2,7 +2,6 @@
 Natural Language Processing Camp
 
 ![linkedin_cover_1](https://user-images.githubusercontent.com/66115008/119191867-e1686a80-ba87-11eb-8915-3e22180edbc0.png)
-![trend_map](https://user-images.githubusercontent.com/66115008/119192039-242a4280-ba88-11eb-8da6-30a2246033e4.png)
 
 This GitHub repository contains all the "Paza Anulare" team's work throughout the Natural Language Processing Camp.
 
