@@ -1,3 +1,5 @@
+
+
 # NLPC
 Natural Language Processing Camp
 
@@ -78,9 +80,15 @@ Once you've done the analyzing part you can also get some more information about
 Alternatives command: type "alternatives" to find alternatives for a specific product as Coke.
 
 Gender command: type "gender" to get some diagrams about Nr of comments, Number of comments for men and women, Men's positivity percentage, Women's positivity percentage.
+![Nr_comments](https://user-images.githubusercontent.com/66115008/119814638-4cd09300-bef3-11eb-8d52-0750f5646f96.png)
+![Nr_gender_comments](https://user-images.githubusercontent.com/66115008/119814752-6e317f00-bef3-11eb-8bca-eefe81599bc9.png)
+![Nr_men_comments](https://user-images.githubusercontent.com/66115008/119814720-6540ad80-bef3-11eb-9308-6210bc9cc02c.png)
+![Nr_woman_comments](https://user-images.githubusercontent.com/66115008/119814736-68d43480-bef3-11eb-9550-b22ad46f872c.png)
 
 Trend command: type "trend" to get a map visualization of the popularity of the product, and a graph about the popularity.
+![trend_map](https://user-images.githubusercontent.com/66115008/119192052-29878d00-ba88-11eb-9025-2c471a36ec93.png)
 
+![plot](https://user-images.githubusercontent.com/66115008/119192067-2f7d6e00-ba88-11eb-9edf-435f46262993.png)
 Top command: type "top" to get the top 3 comments both positive and negative.
 
 Also, we are creating more user-friendly output data for you, such as graphs and diagrams, so sooner enough, we will add new features to the code, so keep in mind to constantly check our repository for the latest updates.
@@ -103,11 +111,6 @@ Overall, these are all the possibilities of our telegram bot, but we are looking
 Also, we have a beta version for our telegram chatbot, which gives as an output a graph and an earth diagram for the popularity of a particular product.
 
 To try out this function, you shall open the [test.py](http://test.py/) file from our repository and compile it. If you have all the libraries mentioned above installed then you should run the code without any problems (Hint: don't forget to write the input in the terminal)
-
-Here are some examples of the results for the word input "bitcoin":
-![trend_map](https://user-images.githubusercontent.com/66115008/119192052-29878d00-ba88-11eb-9025-2c471a36ec93.png)
-
-![plot](https://user-images.githubusercontent.com/66115008/119192067-2f7d6e00-ba88-11eb-9edf-435f46262993.png)
 
 Btw, this is our team that created this project:
 ![179208541_290533859189418_8294782364621965920_n](https://user-images.githubusercontent.com/66115008/119192167-5a67c200-ba88-11eb-84bd-2e28e7d32254.jpg)
