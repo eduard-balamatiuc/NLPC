@@ -69,30 +69,37 @@ After compiling the code, to start the process, we recommend you use the functio
 
 - The possiblities of the chatbot
 
-    To analyze a particular product, type "/help", afterwards the bot will send you a text message with some buttons below it. Press the analyze button for starting the process. After that, you would get a new message that asks for input from you, and now you have to type in the name of your product. Consequently, you will get short statistics about your product, which includes: the number of comments, the number of positive comments; the number of negative comments; the positive per cent of the comments.
+   To analyze a particular product, type ”analyze *your product*”.Consequently, you will get short statistics about your product, which includes: the number of comments, the number of positive comments; the number of negative comments; the positive per cent of the comments.
 
-    Important: Keep in mind that the analysis process may take a few seconds, so don't worry about it. Usually, it takes about 15 seconds to process your input.
+Important: Keep in mind that the analysis process may take a few seconds, so don't worry about it. Usually, it takes about 20 seconds to process your input.
 
-    We are creating more user-friendly output data for you, such as graphs and diagrams, so sooner enough, we will add new features to the code, so keep in mind to constantly check our repository for the latest updates.
+Once you've done the analyzing part you can also get some more information about your result. This are the posibilities:
 
-    Normal interaction part:
+Alternatives command: type "alternatives" to find alternatives for a specific product as Coke.
 
-    Our bot is also capable of everyday interaction such as finding the weather in different cities or telling jokes:
+Gender command: type "gender" to get some diagrams about Nr of comments, Number of comments for men and women, Men's positivity percentage, Women's positivity percentage.
 
-    Alternatives command: type "alternatives for **the product**" to find alternatives for a specific product as Coke.
+Trend command: type "trend" to get a map visualization of the popularity of the product, and a graph about the popularity.
 
-    Joke telling command: "tell me a joke" / "tell me something funny" / "do you know a joke?"
+Top command: type "top" to get the top 3 comments both positive and negative.
 
-    Weather command: "weather in **the city in which you want to find the weather*.*"
+Also, we are creating more user-friendly output data for you, such as graphs and diagrams, so sooner enough, we will add new features to the code, so keep in mind to constantly check our repository for the latest updates.
 
-    Basic greetings: "hi" / "hey" / "hello" / "good day" / "good afternoon" / "good morning"
+Normal interaction part:
 
-    Basic goodbyes: "bye" / "see you later" / "goodbye" / "see ya" / "good luck"
+Our bot is also capable of everyday interaction such as finding the weather in different cities or telling jokes:
 
-    Essential thanks answering: "thanks" / "thank you" / "thanks a lot!"
+Joke telling command: "tell me a joke" / "tell me something funny" / "do you know a joke?"
 
-    Overall, these are all the possibilities of our telegram bot, but we are looking forward to developing new features.
+Weather command: "weather in **the city in which you want to find the weather*.*"
 
+Basic greetings: "hi" / "hey" / "hello" / "good day" / "good afternoon" / "good morning"
+
+Basic goodbyes: "bye" / "see you later" / "goodbye" / "see ya" / "good luck"
+
+Essential thanks answering: "thanks" / "thank you" / "thanks a lot!"
+
+Overall, these are all the possibilities of our telegram bot, but we are looking forward to developing new features.
 Also, we have a beta version for our telegram chatbot, which gives as an output a graph and an earth diagram for the popularity of a particular product.
 
 To try out this function, you shall open the [test.py](http://test.py/) file from our repository and compile it. If you have all the libraries mentioned above installed then you should run the code without any problems (Hint: don't forget to write the input in the terminal)
