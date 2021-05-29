@@ -69,7 +69,7 @@ You are ready to compile the code, so please feel free to run the main.py file. 
 
 After compiling the code, to start the process, we recommend you use the function "/start" to start the chatbot interaction, but here are all the chatbot possibilities that we would like you to try:
 
-- The possiblities of the chatbot
+# The possiblities of the chatbot
 
 To analyze a particular product, type ”/analyze *your product*”.Consequently, you will get short statistics about your product, which includes: the number of comments, the number of positive comments; the number of negative comments; the positive per cent of the comments.
 
@@ -113,10 +113,7 @@ Basic goodbyes: "bye" / "see you later" / "goodbye" / "see ya" / "good luck"
 
 Essential thanks answering: "thanks" / "thank you" / "thanks a lot!"
 
-Overall, these are all the possibilities of our telegram bot, but we are looking forward to developing new features.
-Also, we have a beta version for our telegram chatbot, which gives as an output a graph and an earth diagram for the popularity of a particular product.
-
-To try out this function, you shall open the [test.py](http://test.py/) file from our repository and compile it. If you have all the libraries mentioned above installed then you should run the code without any problems (Hint: don't forget to write the input in the terminal)
+Overall, these are all the possibilities of our telegram bot, but we are looking forward to developing new features, so keep in mind to check our repository later.
 
 Btw, this is our team that created this project:
 ![179208541_290533859189418_8294782364621965920_n](https://user-images.githubusercontent.com/66115008/119192167-5a67c200-ba88-11eb-84bd-2e28e7d32254.jpg)
