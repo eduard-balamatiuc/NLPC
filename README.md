@@ -71,25 +71,31 @@ After compiling the code, to start the process, we recommend you use the functio
 
 - The possiblities of the chatbot
 
-   To analyze a particular product, type ”analyze *your product*”.Consequently, you will get short statistics about your product, which includes: the number of comments, the number of positive comments; the number of negative comments; the positive per cent of the comments.
+To analyze a particular product, type ”/analyze *your product*”.Consequently, you will get short statistics about your product, which includes: the number of comments, the number of positive comments; the number of negative comments; the positive per cent of the comments.
 
-Important: Keep in mind that the analysis process may take a few seconds, so don't worry about it. Usually, it takes about 20 seconds to process your input.
+Important: Keep in mind that the analysis process may take some time, so don't worry about it. Usually, it takes about 25 seconds to process your input.
 
-Once you've done the analyzing part you can also get some more information about your result. This are the posibilities:
+Once you've done the analyzing part you can also get some more information about your result. Also under the information message you will get some buttons for gender, trend, top, alternatives, definition and export data. This are their role:
 
-Alternatives command: type "alternatives" to find alternatives for a specific product as Coke.
+Alternatives button: Gives you some alternatives for your product, and what people also ask about this product.
 
-Gender command: type "gender" to get some diagrams about Nr of comments, Number of comments for men and women, Men's positivity percentage, Women's positivity percentage.
+Gender button: Sends some diagrams about Number of comments, Number of comments for men and women, Men's positivity percentage, Women's positivity percentage.
+
 ![Nr_comments](https://user-images.githubusercontent.com/66115008/119814638-4cd09300-bef3-11eb-8d52-0750f5646f96.png)
 ![Nr_gender_comments](https://user-images.githubusercontent.com/66115008/119814752-6e317f00-bef3-11eb-8bca-eefe81599bc9.png)
 ![Nr_men_comments](https://user-images.githubusercontent.com/66115008/119814720-6540ad80-bef3-11eb-9308-6210bc9cc02c.png)
 ![Nr_woman_comments](https://user-images.githubusercontent.com/66115008/119814736-68d43480-bef3-11eb-9550-b22ad46f872c.png)
 
-Trend command: type "trend" to get a map visualization of the popularity of the product, and a graph about the popularity.
+Trend button: Sends a map visualization of the popularity of the product, and a graph about the popularity.
 ![trend_map](https://user-images.githubusercontent.com/66115008/119192052-29878d00-ba88-11eb-9025-2c471a36ec93.png)
 
 ![plot](https://user-images.githubusercontent.com/66115008/119192067-2f7d6e00-ba88-11eb-9edf-435f46262993.png)
-Top command: type "top" to get the top 3 comments both positive and negative.
+
+Top button: Sends a text message which includes the top 3 comments both positive and negative.
+
+Definition button: Sends you the definition of the product.
+
+Export data button: Sends you a csv with the analysis result
 
 Also, we are creating more user-friendly output data for you, such as graphs and diagrams, so sooner enough, we will add new features to the code, so keep in mind to constantly check our repository for the latest updates.
 
