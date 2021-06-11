@@ -1,20 +1,22 @@
+from sklearn.feature_extraction.text import CountVectorizer
+import re
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import string
+import nltk
+import warnings
+import twint
+from datetime import date
+import joblib
+import json
+import test
+import requests
+import bs4
+from nltk import PorterStemmer
+
 def start_process(input_text):
-    from sklearn.feature_extraction.text import CountVectorizer
-    import re
-    import pandas as pd
-    import numpy as np
-    import matplotlib.pyplot as plt
-    import seaborn as sns
-    import string
-    import nltk
-    import warnings
-    import twint
-    from datetime import date
-    import joblib
-    import json
-    import test
-    import requests
-    import bs4
 
     def twitter_setiment_analyze(test):
         """
@@ -42,8 +44,6 @@ def start_process(input_text):
         test['Tidy_Tweets'] = test['Tidy_Tweets'].apply(lambda x: ' '.join([w for w in x.split() if len(w)>3]))
 
         tokenized_tweet = test['Tidy_Tweets'].apply(lambda x: x.split())
-
-        from nltk import PorterStemmer
 
         ps = PorterStemmer()
 
@@ -142,7 +142,7 @@ def start_process(input_text):
 
     vectorizer = CountVectorizer(analyzer='char')
 
-    def transform(string):
+    def transform(string : str):
         """
         This function transforms the data input
         """
@@ -164,7 +164,7 @@ def start_process(input_text):
             count += 1
         return x
 
-    def Top_Comments(Dataframe, label = 'label', tweet = 'tweet'):
+    def Top_Comments(Dataframe : pd.core.frame.DataFrame, label : str = 'label', tweet : str = 'tweet'):
         """
         This function takes the input dataframe and returns a dictionary with some statistics about the dataframe, for example:
         Positive and negative percentage
