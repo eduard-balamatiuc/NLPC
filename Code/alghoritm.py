@@ -164,7 +164,7 @@ def start_process(input_text):
             count += 1
         return x
 
-    def Top_Comments(Dataframe : pd.core.frame.DataFrame, label : str = 'label', tweet : str = 'tweet'):
+    def Top_Comments(Dataframe : 'pd.core.frame.DataFrame' , label : str = 'label', tweet : str = 'tweet'):
         """
         This function takes the input dataframe and returns a dictionary with some statistics about the dataframe, for example:
         Positive and negative percentage
